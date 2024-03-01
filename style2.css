@@ -1,0 +1,112 @@
+#game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 50px auto;
+    background-image: url("ground.jpg");
+}
+
+#player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("photo_34.png");
+}
+
+.enemy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("enemy.png");
+}
+
+#inventory {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#craft-btn {
+    margin-top: 20px;
+}
+
+.wall {
+    background-image: url("wall.jpg");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.loot {
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("loot.png");
+
+}
+
+#controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.control {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    touch-action: none;
+}
+
+.up {
+    background-image: url('arrow-up.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.down {
+    background-image: url('arrow-down.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left {
+    background-image: url('arrow-left.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right {
+    background-image: url('arrow-right.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.life-drop {
+    width: 20px;
+    height: 20px;
+    background-image: url('<https://i.imgur.com/7gmNlLd.png>');
+    background-size: contain;
+}
